@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>target\sql-converter-jar-with-dependencies.jar</jar>
+  <outfile>target\sql-converter.exe</outfile>
+  <errTitle>SQL Converter Error</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>https://www.oracle.com/java/technologies/downloads/</downloadUrl>
+  <supportUrl>https://github.com/javabuk/RevisorScriptsBBDD</supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>com.revisor.scripts.SqlEncodingConverter</mainClass>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>11</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <messages>
+    <startupErr>Error: No se pudo iniciar la aplicación.</startupErr>
+    <bundledJreErr>Error: No se encontró Java Runtime Environment compatible.</bundledJreErr>
+    <jreVersionErr>Error: Java 11 o superior es requerido.</jreVersionErr>
+    <launcherErr>Error: No se pudo crear el launcher.</launcherErr>
+    <instanceAlreadyExistsMsg>La aplicación ya está en ejecución.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
